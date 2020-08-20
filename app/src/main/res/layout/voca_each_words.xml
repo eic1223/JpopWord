@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="2dp"
+    android:layout_marginRight="4dp"
+    android:layout_marginBottom="4dp"
+    android:background="#00DCDC02"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/voca_imageView_star"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/ic_star_black_24dp" />
+
+    <TextView
+        android:id="@+id/voca_textView_wordJap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="4dp"
+        android:layout_toRightOf="@id/voca_imageView_star"
+        android:gravity="center|center_vertical"
+        android:text="일본어 단어"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/voca_textView_wordJapPron"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_toRightOf="@id/voca_textView_wordJap"
+        android:gravity="center|center_vertical"
+        android:text="일본어 발음"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/voca_textView_wordKor"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+        android:ellipsize="end"
+        android:gravity="center|center_vertical"
+        android:inputType="text"
+        android:maxLines="1"
+        android:text="단어 뜻"
+        android:textAlignment="viewStart"
+        android:textSize="14sp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/voca_imageView_star"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="1dp"
+        android:background="#D8D8D8" />
+
+</RelativeLayout>

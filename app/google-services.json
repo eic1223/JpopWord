@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "789049019230",
+    "firebase_url": "https://voca-8f526.firebaseio.com",
+    "project_id": "voca-8f526",
+    "storage_bucket": "voca-8f526.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789049019230:android:5938b361545e7ce8785dcf",
+        "android_client_info": {
+          "package_name": "com.dane.jpopword"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789049019230-drtfch6ofeete0cqh2dha2q5altvtapv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dane.jpopword",
+            "certificate_hash": "5cb84d615f95f0697e3c13c631200274e324de80"
+          }
+        },
+        {
+          "client_id": "789049019230-be0c0dhd8k9oblj86s411k0t2osv10l2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9I23cHv_ik51UPuo-G6pQLKLJ52G8XcQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789049019230-be0c0dhd8k9oblj86s411k0t2osv10l2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

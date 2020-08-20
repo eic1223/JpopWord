@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeedFragment">
+
+    <ScrollView
+        android:id="@+id/feedFragment_scrollView_feed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/feedFragment_feed_parent_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/feedFragment_textView_footer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="COPYRIGHT. All rights deserved. 노래로 자연스럽게 배우는 일본어. 공부하지말고 놀면서 배우자. 한국인이 배우기 가장 쉬운 외국어. 이정도는 교양으로 하자. 개발자는 이런 방법으로 JLPT 2급을 땄습니다(2018). 궁금한 점 있으시다면 언제든지 연락주세요" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

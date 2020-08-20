@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.florent37.shapeofview.shapes.RoundRectView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/words_card"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="32dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="32dp"
+    android:layout_marginBottom="4dp"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    app:shape_roundRect_borderColor="@android:color/black"
+    app:shape_roundRect_borderWidth="3dp"
+    app:shape_roundRect_bottomLeftRadius="10dp"
+    app:shape_roundRect_bottomRightRadius="10dp"
+    app:shape_roundRect_topLeftRadius="10dp"
+    app:shape_roundRect_topRightRadius="10dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/quiz_textView_wordJapPron"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:text="かたおもい"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:id="@+id/quiz_imageView_star"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/ic_star_black_48dp"
+                    android:backgroundTint="#FFFFFF"
+                    android:backgroundTintMode="src_atop"
+                    android:tint="#646464"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/ic_star_border_black_48dp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/quiz_wordBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/quiz_textView_wordJap"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="3dp"
+                    android:gravity="center|center_horizontal|center_vertical"
+                    android:text="片思い"
+                    android:textAlignment="center"
+                    android:textSize="34sp" />
+
+                <TextView
+                    android:id="@+id/quiz_textView_wordKorPron"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="3dp"
+                    android:gravity="center|center_horizontal|center_vertical"
+                    android:text="카타오모이"
+                    android:textAlignment="center"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/quiz_textView_wordKor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="3dp"
+                    android:autoSizeMaxTextSize="24sp"
+                    android:autoSizeMinTextSize="16sp"
+                    android:autoSizeStepGranularity="3dp"
+                    android:autoSizeTextType="uniform"
+                    android:gravity="center|center_horizontal|center_vertical"
+                    android:text="짝사랑"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+
+</com.github.florent37.shapeofview.shapes.RoundRectView>

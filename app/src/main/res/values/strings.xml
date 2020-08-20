@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">충분데스</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="report_email">super_dane@naver.com</string>
+
+    <!--페이스북 로그인 추가-->
+    <string name="facebook_app_id">1454224784756265</string>
+    <string name="fb_login_protocol_scheme">fb1454224784756265</string>
+    <string name="facebook_application_id" translatable="false">1454224784756265</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb1454224784756265</string>
+
+    <!--login popup-->
+    <string name="login_textView_guide">로그인하고 더 많은 기능을 이용하세요 :)</string>
+    <string name="login_btn_google">구글 계정으로 로그인</string>
+    <string name="login_btn_facebook">페이스북으로 로그인</string>
+    <string name="login_textView_cancel">돌아가기</string>
+
+
+    <string name="songs_tab_feed">노래 듣기</string>
+    <string name="songs_tab_voca">단어장</string>
+    <string name="songs_tab_favorites">좋아요</string>
+    <string name="songs_tab_about">정보</string>
+
+    <!-- splash -->
+    <string name="splash_line1">일본어 공부는</string>
+    <string name="splash_line2">노래만 들어도</string>
+    <string name="splash_line3">충 분 데 스</string>
+
+    <!-- songs voca -->
+    <string name="songs_voca_none_guide">단어장을 채워 볼까요?</string>
+
+    <!-- songs favorites -->
+    <string name="songs_favorites_none_guide">나만의 플레이리스트를 만들어보세요!</string>
+
+    <!-- songs about -->
+    <string name="songs_about_guestUser_guide">로그인하고 더 많은 기능을 이용해보세요:)</string>
+    <string name="songs_about_guestUser_btnLogin">SNS 간편 로그인</string>
+    <string name="songs_about_notice">개발팀에게 연락하기</string>
+    <string name="songs_about_notice_description">가사와 함께 듣고 싶은 노래가 있나요?\n궁금한 점이나 불편한 점이 있으신가요?\n무엇이든지 저희에게 알려주세요!</string>
+    <string name="songs_about_send_email">메일 보내기</string>
+
+    <!-- %1$s는 문자열이고 %2$d는 10진수입니다-->
+    <string name="songs_category_badgeCount">뱃지(%1$s)</string>
+    <string name="category_adapter_name">%1$s(%2$s/%3$s)</string>
+    <string name="category_adapter_percent">%1$s%%</string>
+    <string name="quiz_fragment_questionNum">%1$s/%2$s</string>
+
+    <string name="lyricsFragment_recommend_category">이런 노래는 어때요?</string>
+    <string name="lyricsFragment_recommend_favorites">나의 플레이리스트</string>
+
+    <!-- youtube -->
+    <string name="youtube_tab_lyrics">가사 보기</string>
+    <string name="youtube_tab_words">단어 정리</string>
+    <string name="youtube_tab_quiz">퀴즈 풀기</string>
+
+    <string name="quizFragment_beforeStart_guide">퀴즈를 풀고 뱃지를 모아볼까요?</string>
+    <string name="quizFragment_result_end">짝짝짝! 수고했어요:)</string>
+    <string name="quizFragment_result_perfect">완벽해요!</string>
+
+    <!--   -->
+    <string name="sample">텍스트</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_instantyoutubeactivity">체험해보기</string>
+
+
+</resources>

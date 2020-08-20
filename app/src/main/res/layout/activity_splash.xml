@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SplashActivity">
+
+    <TextView
+        android:id="@+id/splash_textViewLine1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/splash_textViewLine2"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/bmeuljirottf"
+        android:text="@string/splash_line1"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/splash_textViewLine2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/imageView17"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/bmeuljirottf"
+        android:text="@string/splash_line2"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/cat_front" />
+
+    <TextView
+        android:id="@+id/splash_textViewLine3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView17"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/bmeuljirottf"
+        android:text="@string/splash_line3"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:visibility="visible" />
+
+</RelativeLayout>

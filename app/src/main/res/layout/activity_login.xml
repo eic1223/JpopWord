@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:text="@string/login_textView_guide"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="32dp"
+        app:srcCompat="@drawable/cat_stand" />
+
+    <Button
+        android:id="@+id/login_btn_google"
+        style="@style/FirebaseUI.Button.AccountChooser.GoogleButton"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="@string/login_btn_google"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <FrameLayout
+        android:id="@+id/FrameLayout1"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content">
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_btn_facebook"
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/login_btn_fake_facebook"
+            style="@style/FirebaseUI.Button.AccountChooser.FacebookButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#3B5998"
+            android:onClick="onClickFacebookButton"
+            android:text="페이스북으로 로그인"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/login_textView_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/login_textView_cancel"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+</LinearLayout>

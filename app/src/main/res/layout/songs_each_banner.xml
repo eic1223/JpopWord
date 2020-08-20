@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <ImageView
+            android:id="@+id/banner_imageView_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            tools:srcCompat="@drawable/cat_banner" />
+
+        <ImageView
+            android:id="@+id/imageView_blackalpha"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha=".4"
+            android:background="#000000"
+            android:visibility="gone"
+            app:srcCompat="@color/material_on_surface_emphasis_medium" />
+
+        <TextView
+            android:id="@+id/banner_textView_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Banner Text"
+            android:textAlignment="center"
+            android:textColor="#03A9F4"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</LinearLayout>

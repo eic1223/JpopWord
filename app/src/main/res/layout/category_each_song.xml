@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginBottom="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/category_each_song_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="노래 1"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/category_each_song_thumbnail"
+        android:layout_width="240dp"
+        android:layout_height="135dp"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:scaleType="centerCrop"
+        tools:srcCompat="@tools:sample/backgrounds/scenic[16]" />
+
+    <TextView
+        android:id="@+id/category_each_song_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        android:text="노래에 대한 이야기. 무슨 앨범에, 애니메이션이나 드라마 어디에 쓰였다. 누구 테마송이다. 이런 거 적으면 괜찮을 듯. 가사에 해설이 필요한 부분이 있으면 (ㄱㄱ라고 쓰고 ㅇㅇ라고 읽는 등의) 여기서 미리 말해줘도 좋을 것 같아." />
+
+</LinearLayout>
